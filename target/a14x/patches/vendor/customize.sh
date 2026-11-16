@@ -1,0 +1,2 @@
+DECODE_APK "vendor" "overlay/framework-res__auto_generated_rro_vendor.apk"
+EVAL "sed -i \"/<resources>/a \\\ \\\ \\\ \\\ <integer name=\\\"config_num_physical_slots\\\">2</integer>\" \"$APKTOOL_DIR/vendor/overlay/framework-res__auto_generated_rro_vendor.apk/res/values/integers.xml\""

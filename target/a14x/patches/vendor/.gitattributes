@@ -1,0 +1,6 @@
+vendor/** binary
+vendor/bin/** binary
+vendor/bin/hw/** binary
+vendor/* binary
+vendor/bin/* binary
+vendor/bin/hw/* binary
